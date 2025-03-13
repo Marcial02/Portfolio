@@ -1,0 +1,245 @@
+
+
+*{
+    margin-top: 0.5%;
+    margin-inline: 1.5%;
+ 
+    font-family: "Poppins", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    background-color: #001721;
+    color: #b6fbff;
+   
+}
+
+.pic_logo1{
+    object-fit: cover;
+    width: auto;
+    height: 80px;
+    position: relative;
+    cursor: default;
+    opacity: 0;
+    animation: slideRight 1s ease forwards;
+   
+}
+.nav1{
+    display: flex;
+    align-items: centers;
+    animation: slideTop .5s ease forwards;
+    padding-bottom: 2%;
+}
+.top-link{
+  flex-grow: 1;
+    text-align: right;
+    list-style: none;
+   
+   
+}
+
+.nav1 a{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+.nav1 a:hover{
+  
+   color: #00ebd3;
+   
+}
+
+
+
+.section1{
+    width: 100%;
+    background-image: linear-gradient(rgba(21, 2, 2, 0.7),rgba(30, 4, 4, 0.547)),url(image/book_banner.png);
+    background-size: cover;
+    position: relative;
+    width: 100% ;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 70px, 10% 0;
+    
+}
+
+.section1-content{
+    max-width: 450px;
+    background-color: transparent;
+
+}
+
+.section1-content h3{
+    font-size: 32px;
+    font-weight: 700px;
+    background-color: transparent;
+    
+
+}
+
+.section1-content h1{
+    font-size: 54px;
+    font-weight: 700px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: transparent;
+
+}
+
+.section1-content h3:nth-of-type(2){
+    margin-bottom: 30px;
+    
+    
+
+}
+
+.section1-content h3 span{
+    color:#00ebd3;
+    background-color: transparent;
+    
+
+}
+
+.section1-content p {
+
+    background-color: transparent;
+    padding-bottom: 10px;
+}
+    
+
+.btn-cv{
+    display: inline-block;
+    padding: 12px 28px;
+    background: #00ebd3 ;
+    border-radius: 40px;
+    box-shadow: 0 0 10px #00ebd3;
+    color: #001721;
+    text-decoration: none;
+}
+
+/*Animation*/
+
+@keyframes slideRight{
+    0%{
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+
+    100%{
+        transform: translateX(auto);
+        opacity: 1;
+    }
+}
+
+@keyframes slideTop{
+    0%{
+        transform: translateY(-100px);
+        opacity: 0;
+    }
+
+    100%{
+        transform: translateY(auto);
+        opacity: 1;
+    }
+}
+
+/* Bottom Section */
+
+.bot-section{
+
+    text-align: center;
+    padding-top: 50px;
+
+}
+
+.nav2{
+    display: flex;
+    align-items: centers;
+}
+.bot-link{
+  flex-grow: 1;
+    text-align: right;
+    list-style: none;
+   
+}
+
+.nav2 a{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+.nav2 a:hover{
+  
+   color: #b6fbff;
+   
+}
+
+.gallery{
+    display: grid;
+
+}
+.books img{
+   
+    max-width: 100px;
+    position: relative;
+    cursor: default;
+    opacity: 0;
+    animation: slideRight 1s ease forwards;
+
+
+}
+
+.section2{
+    padding-top: 5%;
+    text-align: center;
+}
+
+.section2-content h1{
+    font-size: 54px;
+    font-weight: 700px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: transparent;
+
+}
+.gallery2{
+    display: grid;
+
+}
+.arts img{
+   
+    max-width: 1000px;
+    position: relative;
+    cursor: default;
+    opacity: 0;
+    animation: slideRight 1s ease forwards;
+
+
+}
+
+
+
+.bot-link{
+    flex: 1;
+    text-align: center;
+    margin-bottom:25px; 
+}
+.bot-link ul{
+    list-style: none;
+    display: inline-block;
+    position: relative;
+}
+.bot-link ul a{
+    color: #00ebd3;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 13px;
+    padding: 8px 12px;
+    font-size: 13px;
+    position: relative;
+    cursor: pointer; 
+}
